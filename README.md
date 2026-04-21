@@ -27,7 +27,7 @@ Run & test with curl
 pip install flask
 python app.py
 # Add a student
-curl.exe -X POST "http://localhost:5000/students" -H "Content-Type: application/json" -d "{\"name\":\"Alice\",\"age\":20}"
+curl.exe -X POST 'http://localhost:5000/students' -H 'Content-Type: application/json' -d '{\"name\":\"Alice\",\"roll\":\"CS001\"}'
 
 # List all students
 curl http://localhost:5000/students
